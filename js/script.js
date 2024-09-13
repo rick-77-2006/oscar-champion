@@ -145,7 +145,7 @@ $(function() {
 
 	function initialize() {
 
-		var secheltLoc = new google.maps.LatLng(55.749792, 37.632495);
+		var secheltLoc = new google.maps.LatLng(44.546003972797074, 11.357019670026482);
 
 		var myMapOptions = {
 			scrollwheel: false
@@ -162,7 +162,7 @@ $(function() {
 		var marker = new google.maps.Marker({
 			map: theMap,
 			draggable: false,
-			position: new google.maps.LatLng(55.749792, 37.632495),
+			position: new google.maps.LatLng(44.546003972797074, 11.357019670026482),
 			icon: image,
 			visible: true
 		});
@@ -170,8 +170,8 @@ $(function() {
 		var boxText = document.createElement('div');
 
 		var contentString = '<div id="content-boolean">'+
-	      '<h1>Ваша Компани</h1>'+
-	      '<p>Россия, Москва, ул. Пушкина</p>'+
+	      '<h1>Le mie coordinate</h1>'+
+	      '<p>Italia. Bologna. st. Maxim Gorkij 9</p>'+
 	      '</div>';
 
 		var myOptions = {
