@@ -27,8 +27,7 @@ $(function() {
 /*---- Top Slider ----*/
 
 	var dSlideSpeed = 50;
-	/*var dTimeOut = 8000;*/
-	var dTimeOut = 3000;
+	var dTimeOut = 8000;
 	var dNeedLinks = false;
 	var slideNum = 0;
 	var slideTime;
